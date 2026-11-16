@@ -1,0 +1,8 @@
+models:
+  - name: fct_orders
+    description: "one row per order, with the total of its successful payments"
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique
